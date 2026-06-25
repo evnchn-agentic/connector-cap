@@ -6,6 +6,8 @@ panel next to a credit card, turned the card's known size into a ruler, and rebu
 in CAD from pixels. Here's the reverse-engineering — overlay-print checks and handedness
 mix-ups included.*
 
+![The sleek cap, seated — XT60 power in, data cable routed through the slim slot](images/cap-sleek.jpg)
+
 ## What This Is
 
 A 3D-printable **cover cap** for the recessed connector panel of a commercially-available
@@ -51,6 +53,8 @@ One parametric script, two outputs: a **dev** cap with a full data-port window f
 work, and a **sleek** cap with a slim, disguised cable slot for a tidy finish. Changing
 between them is a one-line flag, not a forked file.
 
+![The dev cap — full XT60 + data-port window, for bench work](images/cap-dev.jpg)
+
 ### The honest bits
 - **Handedness is the #1 trap.** Left/right + flip orientation, mapped against a physical
   overlay, bit repeatedly — a Y-mirror of an X-symmetric profile *looks* like a 180° rotation
@@ -60,22 +64,12 @@ between them is a one-line flag, not a forked file.
   wrong way and the boolean misses — caught only by asserting the volume *dropped* after each
   cut.
 
-## Gallery
+---
 
-**Sleek variant — seated, power in, data cable through the slim slot:**
-
-![Sleek cap installed on the connector panel](images/cap-sleek.jpg)
-
-**Dev variant — full XT60 + data-port window for bench work:**
-
-![Dev cap with full data-port window](images/cap-dev.jpg)
-
-## What's deliberately NOT here
-
-- **No why, no who.** This is a generic cover for a commercial robot's connector panel —
-  nothing about where it's deployed or for whom.
-- The reusable discipline is the [`agentic-3d-modeling`](https://github.com/evnchn-agentic/agentic-3d-modeling)
-  skill; this repo is one worked application of it.
+*Scope: a generic cover for a commercial robot's panel — the where and the for-whom are left
+out on purpose. The process notes (verify loops, the gotchas) live in the
+[`agentic-3d-modeling`](https://github.com/evnchn-agentic/agentic-3d-modeling) skill; this is
+the real case where photo-scaling, overlay checks, and handedness all bit.*
 
 ## Files
 
