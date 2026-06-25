@@ -40,6 +40,8 @@ pinned to the page, *no* "fit to page" rescaling, a 10 mm verify-bar in the corn
 revealed was **per-axis, not uniform** — a screen/print overlay stretches each axis
 differently — so each axis gets corrected independently.
 
+![The 1:1 overlay the model emits — cap outline, screw centres, the power + data windows, and a 10 mm verify-bar. Print at 100%, drop the real panel on top, read the residuals](images/overlay-1to1.png)
+
 ### Phase 3 — Model the cap (the support-free tricks)
 A thin-walled shell (no lip — a solid block read as "a hunk"), a chamfered window for the
 power connector, a slot for the data cable, and **M2 counterbored screws**. The print-time
@@ -47,6 +49,8 @@ move worth stealing: each counterbore floor gets a **0.2 mm membrane** so the pr
 *bridges* a flat instead of trying to ceiling an overhang — then you drill through the
 0.2 mm after. Vertical screw bores print undersized and faceted, so they're reamed, not
 trusted as-modelled.
+
+![Section through the cap — the thin shell, the counterbore floor with its 0.2 mm bridging membrane, and the chamfered connector window](images/cap-section.png)
 
 ### Phase 4 — Two variants from one source
 One parametric script, two outputs: a **dev** cap with a full data-port window for bench
