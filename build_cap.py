@@ -47,7 +47,8 @@ SLIM_VERSION = True
 CABLE_W, CABLE_T = 9.0, 2.5          # slot: 9mm wide (1mm wider), 2.5mm tall (was 8x2)
 SLOT_SHORTER = 3.0                   # slot is 3mm LESS LONG (cut from XT60 rightwards, far
                                     # end retracted 3mm). Through-cut. UNVERIFIED geometry.
-# NOTE: cutout HEIGHTS (Y) are NOT calibrated yet -> slot Y centred at 0 (see TODO.md)
+# NOTE: cutout HEIGHTS (Y) are NOT calibrated -> slot Y centred at 0. The photo recon gives
+# X/Y positions but not connector heights above the panel; measure on the real part to refine.
 
 # --- screw holes: anchored to the WIDE edge (flip-invariant), counterbored ---
 SCREW_D = 2.8              # FREE clearance for the 2mm screw — passes straight through the
