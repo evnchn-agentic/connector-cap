@@ -1,0 +1,8 @@
+# Verified 2026-10-27 on Python 3.12.
+build123d==0.13.0
+matplotlib==3.11.2
+networkx==3.7
+numpy==2.5.4
+pillow==13.0.0
+scipy==1.18.1
+trimesh==5.2.0

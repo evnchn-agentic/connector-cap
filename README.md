@@ -79,4 +79,5 @@ the real case where photo-scaling, overlay checks, and handedness all bit.*
 
 `build_cap.py` (parametric model → STEP/STL + section/iso/printability views) ·
 `cap_dev` / `cap_sleek` (`.step`/`.stl`) · `scale1to1.py` (the 1:1 overlay PDF) ·
-`measure_drawing.py` (credit-card-scale outline extraction).
+`measure_drawing.py` (credit-card-scale outline extraction; needs the source photos, which are
+not included). Install with `pip install -r requirements.txt`, then `python build_cap.py`.
